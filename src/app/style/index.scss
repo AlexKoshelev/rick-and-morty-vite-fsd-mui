@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  padding: 20px;
+  width: 100vw;
+  min-height: 100vh;
+  color: white;
+  background-image: url("../../assets/img/wallpaperbetter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+nav {
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+nav ul li {
+  margin: 10px;
+}
+nav a {
+  color: rgb(219, 220, 227);
+  font-style: italic;
+}
+nav a:hover {
+  color: rgb(182, 127, 231);
+  text-decoration: underline;
+}
+.active {
+  color: #e77fd7;
+}
+._container {
+  margin: 15px auto;
+  max-width: 1200px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+.home h1 {
+  font-size: 34px;
+  font-weight: 700;
+  font-style: italic;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+.card-wrapper {
+  margin-top: 40px;
+  width: 700px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgba(210, 210, 210, 0.429);
+}
+.card-wrapper .header {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-wrapper .header .header-info {
+  width: 67%;
+}
+.card-wrapper .header ul {
+  text-align: left;
+  margin-left: 15px;
+}
+.card-wrapper .header ul li {
+  margin-top: 10px;
+}
+.card-wrapper .header h2 {
+  margin: 20px auto;
+  font-weight: 600;
+  font-style: italic;
+}
+.card-wrapper .image {
+  width: 33%;
+  height: 220px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-wrapper p {
+  margin-top: 15px;
+}
+.list {
+  display: block;
+}
+.list h1 {
+  text-align: center;
+}
+.list h2 {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 30px;
+}
+.list ul a {
+  color: white;
+}
+.list button {
+  background-color: rgb(189, 176, 176);
+  font-size: 30px;
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+}
+.list button:hover {
+  background-color: rgb(182, 127, 231);
+}
+.form_wrapper {
+  width: 600px;
+  background-color: rgba(210, 210, 210, 0.429);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+.form_wrapper label {
+  font-size: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+.form_wrapper label div {
+  display: flex;
+  width: 100%;
+}
+.form_wrapper label div input {
+  display: flex;
+  width: 100%;
+  height: 30px;
+}
+.form_wrapper label div input::placeholder {
+  font-size: 20px;
+}
+.form_wrapper button {
+  width: 60%;
+  height: 25px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.form_wrapper button:hover {
+  background-color: rgb(182, 127, 231);
+}
