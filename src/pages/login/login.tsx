@@ -1,7 +1,7 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import Button from "../../shared/button/button";
-import FormWrapper from "../../shared/form/form-wrapper/form-wrapper";
-import TextField from "../../shared/form/text-field/text-field";
+import { Button } from "../../shared/button";
+import { FormWrapper } from "../../shared/form/form-wrapper";
+import { TextField } from "../../shared/form/text-field";
 import { useEffect, useRef, useState } from "react";
 import { useAuth } from "../../providers/auth-provider";
 

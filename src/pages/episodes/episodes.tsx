@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useSorted } from "../../hooks/useSorted";
-import SortedButtons from "../../features/sorted-buttons/sorted-buttons";
+import { SortedButtons } from "../../features/sorted-buttons";
 import { EpisodeData } from "../../types/data";
 import { useGetItem } from "../../hooks/useGetItem";
 const Episodes: React.FC = () => {

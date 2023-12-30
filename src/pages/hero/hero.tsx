@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Card from "../../shared/card/card";
+import { Card } from "../../shared/card";
 import { HeroData } from "../../types/data";
 import { useGetCurrentItem } from "../../hooks/useGetCurrentItem";
 const Hero: React.FC = () => {

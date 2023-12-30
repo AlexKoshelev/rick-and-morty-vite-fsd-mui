@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import Card from "../../shared/card/card";
+import { Card } from "../../shared/card";
 import { useGetCurrentItem } from "../../hooks/useGetCurrentItem";
 import { LocationData } from "../../types/data";
 const Location = () => {
