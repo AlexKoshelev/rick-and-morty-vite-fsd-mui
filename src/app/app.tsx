@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import { NavBar } from "../widgets/navbar";
 import routes from "../routes/routes.tsx";
 import { RouteObject, useRoutes } from "react-router-dom";
-import Loading from "../shared/loading/loading.tsx";
+import { Loading } from "../shared/loading";
 
 const App: React.FC = () => {
   const elements = useRoutes(routes() as RouteObject[]);
